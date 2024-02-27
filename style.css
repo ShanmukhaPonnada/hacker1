@@ -208,9 +208,14 @@
     color: darkgreen;
 }
 .packages .card{
+    column-count: 0.1, 2px, 3px;
+    border-collapse: separate;
+    background-repeat: no-repeat;
+    border-bottom: #ffa500;
     border-radius: 5px;
     border: none;
     box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    column
     
 }
 .packages .card img{
@@ -315,14 +320,18 @@
     border-radius: 10px;
 }
 .about .card img{
-    border-radius: 10px;
+    border-radius: 5px;
+    
+    
 }
 .about h2{
-    font-weight: 600;
+
+    font-weight: 700;
     letter-spacing: 1px;
 }
 .about p{
-    font-weight: 500;
+    font-weight: 300;
+    font-size: 40px;
 }
 #about-btn{
     width: 150px;
